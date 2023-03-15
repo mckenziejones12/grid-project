@@ -13,7 +13,7 @@
     <div class="container">
         <div class="navigation">
             <div class="navHeading">
-                <img src="" alt="dashboard icon">
+                <img class="dashboardIcon" src="dashboardIcon.svg" alt="dashboard icon">
                 <p class="dashboard">Dashboard</p>
             </div>
             <div class="menu">
@@ -23,6 +23,7 @@
                     <li>Messages</li>
                     <li>Tasks</li>
                     <li>Communities</li>
+                    <br>
                     <li>Settings</li>
                     <li>Support</li>
                     <li>Privacy</li>
@@ -31,13 +32,16 @@
         </div>
         <div class="header">
             <div class="searchBar">
-                <img src="" alt="search icon">
-                <input type="text" placeholder="Search">
+                <img class="searchIcon" src="searchIcon.png" alt="search icon">
+                <input class="searchText" type="text" placeholder="Search">
                 <p>McKenzie Jones</p>
             </div>
             <div class="greetingSection">
-                <img src="" alt="profile pic">
-                <div class="greeting">Hi there, McKenzie Jones!</div>
+                <img class="profilePic" src="gridProfilePic.jpeg" alt="profile pic">
+                <div class="greeting">
+                    <div class="greetingPrimary">Hi there,</div>
+                    <div class="greetingSecondary"> McKenzie Jones! (@mckenzbeck12)</div>
+                </div>
                 <div class="headerBtns">
                     <button class="headerBtn">New</button>
                     <button class="headerBtn">Upload</button>
@@ -45,55 +49,60 @@
                 </div>
             </div>
         </div>
-        <div class="workHistory">
-            <div class="card">
-                <p class="cardTitle">McKee Family Dentistry</p>
-                <p class="cardContent">Sept. 2021 - Jan. 2022</p>
-            </div>
-            <div class="card">
-                <p class="cardTitle">Bighorn Family Dental</p>
-                <p class="cardContent">Jan. 2022 - Jul. 2022</p>
-            </div>
-            <div class="card">
-                <p class="cardTitle">Rocky Mountain Smiles</p>
-                <p class="cardContent">Random days between Sept. - Nov. 2021</p>
-            </div>
-            <div class="card">
-                <p class="cardTitle">Allison Jung Family Dental</p>
-                <p class="cardContent">Sept. 2022 - Nov. 2022</p>
-            </div>
-            <div class="card">
-                <p class="cardTitle">Glacier Creek Dental</p>
-                <p class="cardContent">Jan. 2023 - Mar. 2023</p>
-            </div>
-            <div class="card">
-                <p class="cardTitle">Buxton Family Dental</p>
-                <p class="cardContent">Random Days in 2021 and 2022</p>
-            </div>
-
-        </div>
-        <div class="sideBar">
-            <p class="sideBarTitle">Announcements</p>
-            <div class="sideBarSection">
-                <div class="sideBarContent">St. Patty's Day is approaching. Wear your green!</div>
-                <div class="sideBarContent">Bighorn Family Dental start date is April 4th.</div>
-                <div class="sideBarContent">Taylor Swift Concert in Atlanta on April 29th.</div>
-            </div>
-            <p class="sideBarTitle">Trending</p>
-            <div class="sideBarSection">
-                <div class="sideBarContent">
-                    <div class="handle">@tbeckner9</div>
-                    <div class="handleBio">ultrasound 4 lyfe bruh</div>
-                </div>
-                <div class="sideBarContent">
-                    <div class="handle">@jessicasollitto</div>
-                    <div class="handleBio">im a cool mom, not a regular mom</div>
-                </div>
-                <div class="sideBarContent">
-                    <div class="handle">@brandlej</div>
-                    <div class="handleBio">fly fishin is my whole heart dawg</div>
+        <div class="mainContent">
+            <div class="workHistory">
+                <div class="contentTitle" id="workHistoryHeader">Work History</div>
+                <div class="cards">
+                    <div class="card">
+                        <p class="cardTitle">McKee Family Dentistry</p>
+                        <p class="cardContent">Sept. 2021 - Jan. 2022</p>
+                    </div>
+                    <div class="card">
+                        <p class="cardTitle">Bighorn Family Dental</p>
+                        <p class="cardContent">Jan. 2022 - Jul. 2022</p>
+                    </div>
+                    <div class="card">
+                        <p class="cardTitle">Rocky Mountain Smiles</p>
+                        <p class="cardContent">Random days between Sept. - Nov. 2021</p>
+                    </div>
+                    <div class="card">
+                        <p class="cardTitle">Allison Jung Family Dental</p>
+                        <p class="cardContent">Sept. 2022 - Nov. 2022</p>
+                    </div>
+                    <div class="card">
+                        <p class="cardTitle">Glacier Creek Dental</p>
+                        <p class="cardContent">Jan. 2023 - Mar. 2023</p>
+                    </div>
+                    <div class="card">
+                        <p class="cardTitle">Buxton Family Dental</p>
+                        <p class="cardContent">Random Days in 2021 and 2022</p>
+                    </div>
                 </div>
 
+            </div>
+            <div class="sideBar">
+                <p class="contentTitle" id="announcementHeader">Announcements</p>
+                <div class="sideBarSection">
+                    <div class="sideBarContent">St. Patty's Day is approaching. Wear your green!</div>
+                    <div class="sideBarContent">Bighorn Family Dental start date is April 4th.</div>
+                    <div class="sideBarContent">Taylor Swift Concert in Atlanta on April 29th.</div>
+                </div>
+                <p class="contentTitle" id="trendingHeader">Trending</p>
+                <div class="sideBarSection">
+                    <div class="sideBarContent">
+                        <div class="handle">@tbeckner9</div>
+                        <div class="handleBio">ultrasound 4 lyfe bruh</div>
+                    </div>
+                    <div class="sideBarContent">
+                        <div class="handle">@jessicasollitto</div>
+                        <div class="handleBio">im a cool mom, not a regular mom</div>
+                    </div>
+                    <div class="sideBarContent">
+                        <div class="handle">@brandlej</div>
+                        <div class="handleBio">the big T has a special place in my heart dawg</div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>

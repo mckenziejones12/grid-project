@@ -1,0 +1,165 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 4fr;
+}
+.navigation {
+  grid-row: 1 / 3;
+  padding: 15px 25px 0px 15px;
+  display: grid;
+  grid-template-rows: 1fr 16fr;
+  background-color: cadetblue;
+  font-weight: 700;
+  gap: 20px;
+}
+.navigation .dashboardIcon {
+  height: 25px;
+}
+.dashboard {
+  font-size: 20px;
+}
+.navigation .navHeading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.menu ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  list-style-type: none;
+  list-style-position: inside;
+}
+.header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  padding: 0px 30px 30px 30px;
+  gap: 8px;
+  background-color: white;
+  box-shadow: 3px 3px 3px cadetblue;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+.greetingSection {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  align-self: center;
+}
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  padding: 5px;
+  gap: 5px;
+}
+.greetingPrimary {
+  font-size: 16px;
+}
+.greetingSecondary {
+  font-size: 24px;
+}
+
+.searchText {
+  height: 25px;
+  flex: 1;
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: rgb(218, 221, 224);
+  border: none;
+  max-width: 600px;
+}
+.searchIcon {
+  height: 20px;
+}
+.profilePic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.headerBtns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  align-content: center;
+}
+.headerBtn {
+  min-height: 20px;
+  max-height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: cadetblue;
+  font-size: 14px;
+  padding: 5px;
+  color: white;
+}
+.mainContent {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 20px;
+  background-color: rgb(218, 221, 224);
+  gap: 20px;
+}
+.workHistory {
+  grid-column: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 11fr;
+}
+#workHistoryHeader {
+  grid-row: 1/2;
+}
+.cards {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px whitesmoke;
+  padding: 10px;
+  border-left: 6px solid rgb(169, 220, 223);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sideBar {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr 5fr;
+}
+
+.contentTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(149, 148, 148);
+}
+.cardTitle {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.sideBarSection {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
